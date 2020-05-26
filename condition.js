@@ -1,15 +1,13 @@
-let str = prompt("enter the string");
-function call() {
+
+function call(str) {
     if(str == "ping") {
-    console.log("pong");
     return "pong";
     }
     else if(str == "boop") {
-    console.log("beep");
     return "beep";
     }
     else {
-    console.log("ping pong! beep boop");
-    return "ping pong! beep boop"
+    return "ping pong! beep boop";
     }
 }
+module.exports = call;

@@ -1,0 +1,22 @@
+{
+  "name": "condition",
+  "version": "0.0.1",
+  "description": "\"console \"pong\" if given input string is \"ping\", \"boop\" if given string is \"beep\", \"ping pong! beep boop\" for any other string\"",
+  "main": "condition.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indhu1105/condition.git"
+  },
+  "author": "Indhu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/indhu1105/condition/issues"
+  },
+  "homepage": "https://github.com/indhu1105/condition#readme",
+  "dependencies": {
+    "indhu-test": "github:indhu1105/Indhu-test-library"
+  }
+}
